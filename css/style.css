@@ -236,28 +236,32 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: 1px solid #CBC8BE;
     background-color: rgba(229, 227, 205, 0.3);
-    color: #C2BFB5;
     font-family: 'omnes-pro', sans-serif;
-   
-    
+    border-radius: 10% 10% 2% 20%;
+ 
 }
-    
-    #form-container{
-        display: block;
-    }
+
+
+   
 
 /* Set a style for all buttons */
 .log-ind {
   background-color: #C2D32C;
   color: rgba(64, 101, 70, 0.45);
   padding: 14px 20px;
-  margin: 8px 0;
   border: none;
   cursor: pointer;
   width: 80%;
-    border: 1px solid rgba(54, 98, 61, 0.35);
+    border: 3px solid rgba(54, 98, 61, 0.35);
     margin-top: 10%;
     font-family: 'omnes-pro', sans-serif;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+  border-radius: 5% 10% 5% 15%;
+    font-weight: 900;
+    text-decoration: none;
+    
 }
     
     
@@ -265,27 +269,72 @@ input[type=text], input[type=password] {
     #ny-bruger{
         text-align: center;
         margin-top: 7%;
-        color: #C2BFB5;
+        color: #9F8B77;
     }
     
     #ny-bruger a{
-        color: #C2BFB5;
+        color: #9F8B77;
     }
 
 
 
 
 /* The "Forgot password" text */
-span.psw {
+.psw {
   float: right;
     margin-right: 10%;
+    margin-top: 3%;
   font-family: 'quicksand', sans-serif;
   font-size: 12px;
+    
 }
+<<<<<<< Updated upstream
 
 
 /*Navigationsbar*/
 .icon-bar {
+=======
+    
+    .psw a{
+        color: #9F8B77;
+    }
+    
+    
+    #eller{
+        color: #543f2d;
+        text-align: center;
+        font-weight: 400;
+        margin-top: 8%;
+        
+    }
+    
+    #facebook{
+        background-color: #C2D32C;
+  color: rgba(64, 101, 70, 0.45);
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+    border: 3px solid rgba(54, 98, 61, 0.35);
+    margin-top: 10%;
+    font-family: 'omnes-pro', sans-serif;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8%;
+  border-radius: 5% 10% 5% 15%;
+    font-weight: 900;
+    }
+    
+    
+    
+    
+    
+.navbar {
+  overflow: hidden;
+  background-color: #f6f6ee;
+  position: fixed;
+  bottom: 0;
+>>>>>>> Stashed changes
   width: 100%;
     padding: 4% 5% 4% 5%;
   background-color: #f6f6ee;
