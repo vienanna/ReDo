@@ -282,40 +282,67 @@ span.psw {
   font-family: 'quicksand', sans-serif;
   font-size: 12px;
 }
-    
-    
-    
-    
-    
-.navbar {
-  overflow: hidden;
-  background-color: #f6f6ee;
-  position: fixed;
-  bottom: 0;
+
+
+/*Navigationsbar*/
+.icon-bar {
   width: 100%;
+    padding: 4% 5% 4% 5%;
+  background-color: #f6f6ee;
+  overflow: auto;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0px -2px 4px #dadada;
+      border-top-left-radius: 7%;
+    border-top-right-radius: 15%;
     
 }
 
-.navbar a {
+.icon-bar a {
   float: left;
-  display: block;
-  color: #543f2d;
+  width: 20%;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 12px;
-
+  font-family: 'omnes-pro', sans-serif;
+        color: #543f2d;
+  font-size: 11px;
+    text-decoration: none;
 }
 
 
-
-.navbar a.active {
-
-  color: #e0a888;
-}
-
-
+    .icon-bar img{
+        width: 45%;
+    }
     
-  
+ 
+/*DASHBOARD*/
+body{
+    background-color: #fbfbf6;
 }
+    
+    header{
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    
+    .header-ikona{
+        font-size: 12px;
+        color: #543f2d;
+        font-weight: 500;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'omnes-pro', sans-serif;
+    }
+    
+    #bruger{
+      margin-bottom: -6%;
+    }
+    
+     #logo{
+        width: 15%;
+    }
+
+/*Baggrundsfarve=FBFBF6*/
 
