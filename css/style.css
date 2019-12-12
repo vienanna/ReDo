@@ -1,0 +1,321 @@
+@media (max-width: 375px){ 
+    
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+    h1{
+        font-family: 'gooddog-new', sans-serif;
+        color: #543f2d;
+        
+    }    
+    
+    h2{
+        font-family: 'omnes-pro', sans-serif;
+        color: #543f2d;
+    }
+    
+    p{
+        font-family: 'quicksand', sans-serif;
+    }
+    
+/* FONTS
+
+Brødtekst: font-family: quicksand, sans-serif;
+
+font-weight: 400; (regular) - 500 ved medium - 700 ved bold
+
+font-style: normal;
+
+Overskrift: font-family: gooddog-new, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+Underoverskrift: font-family: omnes-pro, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+
+
+FARVER:
+    GUL: #f6e746
+    Lyserød: #e0a888
+    Lysegrønne: #c2d32c
+    Mørkegrøn: #36623d
+    Lysebrun: #9f8b77
+    Mørkebrun: #543f2d
+NAV: #f6f6ee
+*/
+
+/* INTROSIDEN */
+    
+    .intro-baggrund{
+        background-image: url(../images/baggrund-opacity.svg);
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #f7f7f0;
+       
+    }
+    
+    .intro-logo{
+        width: 23%;
+        margin-left: 2%;
+    }
+    
+    #velkomst{
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        margin-top: 10%;
+        
+    
+    }
+    
+    #velkomst h1{
+        font-size: 40px;
+    }
+    
+    #intro{
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+    
+    
+    
+.mySlides {display: none}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 300px;
+  margin: 0 auto;
+     position: relative;
+        top: 40px;
+   
+}
+    
+
+    .slider-images{
+height: 455px;
+        width: auto;
+        padding-left: 4%;
+    }
+    
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #543f2d;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+    .prev{
+        left: 0;
+    }
+
+    #dots{
+        text-align: center;
+        margin-top: 4%;
+    }
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #efeddf;
+    border: 1px solid #9F8B77;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 35%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.active, .dot:hover {
+  background-color: #9F8B77;
+}
+  
+    #skip{
+        color: #543F2D;
+        font-family: 'omnes-pro', sans-serif;
+        top: 40px;
+        position: relative;
+     text-align: center;
+        cursor: pointer;
+      
+    }
+    
+    #skip a{
+        color: #543f2d;
+    }
+    
+    
+/* LANDINGPAGE */
+    
+    #landings-logo{
+        width: 60%;
+    }   
+    
+    .intro-baggrund div{
+        text-align: center;
+        margin-top: 8%;
+    }
+    
+    .intro-baggrund div h2{
+        font-size: 13px;
+    }
+    
+
+    
+    
+    /* LOGIN */
+    
+    
+    form{
+  overflow:hidden;
+}
+form{
+    
+  animation: 3s slide-up;
+  margin-top:0%;
+}
+
+@keyframes slide-up {
+  from {
+    margin-top: 100%; 
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+
+
+    
+    
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #CBC8BE;
+    background-color: rgba(229, 227, 205, 0.3);
+    color: #C2BFB5;
+    font-family: 'omnes-pro', sans-serif;
+   
+    
+}
+    
+    #form-container{
+        display: block;
+    }
+
+/* Set a style for all buttons */
+.log-ind {
+  background-color: #C2D32C;
+  color: rgba(64, 101, 70, 0.45);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+    border: 1px solid rgba(54, 98, 61, 0.35);
+    margin-top: 10%;
+    font-family: 'omnes-pro', sans-serif;
+}
+    
+    
+
+    #ny-bruger{
+        text-align: center;
+        margin-top: 7%;
+        color: #C2BFB5;
+    }
+    
+    #ny-bruger a{
+        color: #C2BFB5;
+    }
+
+
+
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+    margin-right: 10%;
+  font-family: 'quicksand', sans-serif;
+  font-size: 12px;
+}
+    
+    
+    
+    
+    
+.navbar {
+  overflow: hidden;
+  background-color: #f6f6ee;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+    
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #543f2d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+
+}
+
+
+
+.navbar a.active {
+
+  color: #e0a888;
+}
+
+
+    
+  
+}
+
